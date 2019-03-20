@@ -7,7 +7,7 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     druid:
       driver-class-name: com.mysql.jdbc.Driver
-      url: 'jdbc:mysql://192.168.199.1:3306/test?useSSL=false&useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false'
+      url: 'jdbc:mysql://192.168.199.1:3306/product?useSSL=false&useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false'
       username: root
       password: 123456
       initial-size: 5
